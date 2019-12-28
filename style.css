@@ -1,0 +1,21 @@
+#second-div p:nth-child(odd) {
+    color: indianred;
+}
+
+#second-div p:nth-child(even) {
+    color: skyblue;
+}
+
+a[href^="https://www.google.com"] {
+    color: seagreen;
+}
+a[href^="https://www.link-group.eu"] {
+    color: orangered;
+}
+ #first-div>p::after {
+    content: "-NEW";
+    color:yellow; 
+}
+body>p:last-of-type:hover {
+    font-style: italic;
+}
